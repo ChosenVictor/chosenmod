@@ -1,0 +1,124 @@
+#### Loot Box Extra Events ###
+### By Peratus ###
+
+
+namespace = loot_box_extra_events
+normal_or_historical_nations = yes
+
+country_event = { # Lootbox Erotica Start
+	id = loot_box_extra_events.1
+	title = "loot_box_extra_events.1.t"
+	desc = "loot_box_extra_events.1.desc"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	major = no
+	is_triggered_only = yes
+	
+	option = { 
+		name = "loot_box_extra_events.1.a"
+		ROOT = { country_event = { ID = loot_box_extra_events.2 } }
+	}
+}
+
+country_event = { # Lootbox Erotica 2
+	id = loot_box_extra_events.2
+	title = "loot_box_extra_events.2.t"
+	desc = "loot_box_extra_events.2.desc"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	major = no
+	is_triggered_only = yes
+	
+	option = { 
+		name = "loot_box_extra_events.2.a"
+		ROOT = { country_event = { ID = loot_box_extra_events.3 } }
+	}
+}
+
+country_event = { # Lootbox Erotica 3
+	id = loot_box_extra_events.3
+	title = "loot_box_extra_events.3.t"
+	desc = "loot_box_extra_events.3.desc"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	major = no
+	is_triggered_only = yes
+	
+	option = { 
+		name = "loot_box_extra_events.3.a"
+		ROOT = { country_event = { ID = loot_box_extra_events.4 } }
+	}
+}
+
+country_event = { # Lootbox Erotica 4
+	id = loot_box_extra_events.4
+	title = "loot_box_extra_events.4.t"
+	desc = "loot_box_extra_events.4.desc"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	major = no
+	is_triggered_only = yes
+	
+	option = { 
+		name = "loot_box_extra_events.4.a"
+		ROOT = { country_event = { ID = loot_box_extra_events.5 } }
+	}
+}
+
+country_event = { # Lootbox Erotica 5
+	id = loot_box_extra_events.5
+	title = "loot_box_extra_events.5.t"
+	desc = "loot_box_extra_events.5.desc"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	major = no
+	is_triggered_only = yes
+	
+	option = { 
+		name = "loot_box_extra_events.5.a"
+	}
+}
+
+country_event = { # Lootbox Manifesto 1
+	id = loot_box_extra_events.6
+	title = "loot_box_extra_events.6.t"
+	desc = "loot_box_extra_events.6.desc"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	major = no
+	is_triggered_only = yes
+	
+	option = { 
+		name = "loot_box_extra_events.6.a"
+		ROOT = { country_event = { ID = loot_box_extra_events.7 } }
+	}
+}
+
+country_event = { # Lootbox Manifesto 2
+	id = loot_box_extra_events.7
+	title = "loot_box_extra_events.7.t"
+	desc = "loot_box_extra_events.7.desc"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	major = no
+	is_triggered_only = yes
+	
+	option = { 
+		name = "loot_box_extra_events.7.a"
+		ROOT = { country_event = { ID = loot_box_extra_events.8 } }
+	}
+}
+
+country_event = { # Lootbox Manifesto 3
+	id = loot_box_extra_events.8
+	title = "loot_box_extra_events.8.t"
+	desc = "loot_box_extra_events.8.desc"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	major = no
+	is_triggered_only = yes
+	
+	option = { 
+		name = "loot_box_extra_events.8.a"
+	}
+}
